@@ -1,0 +1,30 @@
+# Secrets - NEVER commit these!
+.streamlit/secrets.toml
+.streamlit/secrets.toml.save
+.streamlit/*.toml.save
+*.toml.save
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/config.toml
